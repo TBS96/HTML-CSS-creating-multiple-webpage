@@ -14,8 +14,7 @@ nav{
 }
 
 nav div{
-    color: white;
-    font-size: 20px;
+    padding-top: 5px;
 }
 
 nav ul{
@@ -46,11 +45,12 @@ nav ul li a:hover{
 /* hero area */
 
 header{
-    background-image: url('img/INSTALL-EASE-banner.png');
+    background-image: url('img/INSTALL-EASE-banner-blurred.png');
     padding: 200px 0;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    /* filter: blur(2px); */
 }
 
 .searchBox-icon-parent{
@@ -79,4 +79,49 @@ header{
     border-radius: 5px;
     font-size: 20px;
     padding: 5px 20px;
+    background-color: rgba(77, 76, 76, 0.836);
+    transition: 0.5s;
+}
+
+.searchBox-icon-parent input:hover{
+    border: 2px solid red;
+}
+
+/* main area */
+
+main{
+    background-color: #2D236A;
+    padding-top: 20px;
+}
+
+#main-section{
+    width: 1100px;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+#latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-video-text{
+    color: #04AA6D;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.latest-pages{
+    color: #04AA6D;
+}
+
+.latest-pages span{
+    color: black;
+    background-color: antiquewhite;
+    border: 1px solid #8080805b;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 10px;
+    cursor: pointer;
 }
