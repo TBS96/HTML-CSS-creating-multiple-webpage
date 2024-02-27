@@ -63,6 +63,7 @@ header h2{
     font-size: 120px;
     font-weight: bolder;
     font-size: 80px;
+    font-family: consolas;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -145,6 +146,7 @@ main{
     cursor: pointer;
 }
 
+/* 16 images code */
 #single-items-parent{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -176,3 +178,52 @@ main{
     color: rgba(19, 17, 17, 0.938);
     margin-top: 10px;
 }
+
+/* previous-next code */
+#previous-next-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#previous-next-parent h3 a{
+    background-color: #04AA6D;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#previous-next-parent h3 a:hover{
+    background-color: #018051;
+}
+
+#previous-next-parent a{
+    text-decoration: none;
+    color: white;
+}
+
+#previous-next-parent div a{
+    margin: 0 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #80808069;
+    transition: 0.5s;
+}
+
+#previous-next-parent div a:hover{
+    background-color: #018051;
+}
+
+#previous-next-parent div a:first-child{
+    background-color: #04AA6D;
+    color: white;
+
+}
+#previous-next-parent div a:first-child:hover{
+    background-color: #018051;
+}
+
+
+/* footer area */
