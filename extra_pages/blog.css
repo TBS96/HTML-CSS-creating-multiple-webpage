@@ -82,6 +82,7 @@ nav ul li a:hover{
 .single-img-div img{
     height: 100%;   /*from height of .single-img-div*/
     width: 100%;    /*from width of #article-container*/
+    /* object-fit: cover; */
 }
 
 .single-blog{
