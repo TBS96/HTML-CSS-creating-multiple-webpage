@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* navigation bar area */
+/* navigation bar area starts */
 
 nav{
     display: flex;
@@ -43,6 +43,7 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 
+/* nav bar area ends */
 
 /* hero area */
 
@@ -288,6 +289,11 @@ footer{
 
 .footer-third p{
     margin-bottom: 10px;
+}
+
+.footer-third p a{
+    text-decoration: none;
+    color: white;
 }
 
 .footer-third p:last-child{
